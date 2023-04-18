@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output.css" rel="stylesheet">
+
+</head>
+<body>
+  <h1 class="text-2xl font-bold underline">
+    Hello world!
+  </h1>
+  <!-- Button trigger modal -->
+<button
+type="button" 
+class="inline-block rounded bg-primary px-3 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+data-te-toggle="modal"
+data-te-target="#exampleModalScrollable"
+data-te-ripple-init
+data-te-ripple-color="light">
+Launch demo modal dialog scrollable
+</button>
+
+<!-- Modal -->
+<div
+data-te-modal-init
+class="fixed left-0 top-0 z-[1055] hidden h-full w-full overflow-y-auto overflow-x-hidden outline-none"
+id="exampleModalScrollable"
+tabindex="-1"
+aria-labelledby="exampleModalScrollableLabel"
+aria-hidden="true">
+<div
+  data-te-modal-dialog-ref
+  class="pointer-events-none relative h-full w-auto translate-y-[-50px] opacity-0 transition-all duration-300 ease-in-out min-[576px]:h-[calc(100%-3.5rem)] min-[576px]:mx-auto min-[576px]:mt-7 min-[576px]:max-w-[500px] min-[992px]:max-w-[800px]">
+  <div
+    class="pointer-events-auto relative flex h-full w-full flex-col overflow-hidden rounded-3xl border-none bg-white bg-clip-padding text-current shadow-lg outline-none dark:bg-neutral-600">
+    <div
+      class="flex flex-shrink-0 flex-col items-center justify-between rounded-t-md bg-indigo-300">
+      <div class="flex max-h-[100%] w-full justify-between flex-row overflow-hidden pt-4 px-5">
+        <!--Modal title-->
+        <h2
+          class="text-2xl font-medium leading-normal text-neutral-800 dark:text-neutral-200 mb-4"
+          id="exampleModalScrollableLabel">
+          Add elements to your page
+        </h2>
+        <!--Close button-->
+        <button
+          type="button"
+          class="box-content rounded-full hover:no-underline hover:opacity-75 text-black focus:opacity-100 bg-white hover:bg-[#748094] focus:shadow-none focus:outline-none p-2 h-fit border border-[#26374A] hover:border-[#26374A hover:text-white "
+          data-te-modal-dismiss
+          aria-label="Close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="h-4 w-4">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+      </div>
+      <div class="flex max-h-[100%] w-full flex-row overflow-x-auto overflow-y-hidden pl-4 pb-2">
+        <div
+          data-te-chip-init
+          data-te-ripple-init
+          class="[word-wrap: break-word] my-1 mr-4 px-5 py-5 flex h-[32px] cursor-pointer items-center justify-between rounded-[20px] border border-[#26374A] bg-[#26374A] text-[16px] font-normal normal-case leading-loose text-white shadow-none transition-[opacity] duration-300 ease-linear  hover:!shadow-none dark:text-neutral-200 "
+          data-te-ripple-color="dark">
+          Blank
+         </div>
+         <div
+           data-te-chip-init
+           data-te-ripple-init
+           class="[word-wrap: break-word] my-1 mr-4 px-5 py-5 flex h-[32px] cursor-pointer items-center justify-between rounded-[20px] border border-[#26374A] bg-[#ffffff] text-[16px] font-normal normal-case leading-loose text-black shadow-none transition-[opacity] duration-300 ease-linear hover:bg-[#748094] hover:text-[#ffffff] hover:border-[#26374A] hover:!shadow-none dark:text-neutral-200 "
+           data-te-ripple-color="dark">
+           Premade
+          </div>
+          <div
+            data-te-chip-init
+            data-te-ripple-init
+            class="[word-wrap: break-word] my-1 mr-4 px-5 py-5 flex h-[32px] cursor-pointer items-center justify-between rounded-[20px] border border-[#26374A] bg-[#ffffff] text-[16px] font-normal normal-case leading-loose text-black shadow-none transition-[opacity] duration-300 ease-linear hover:bg-[#748094] hover:text-[#ffffff] hover:border-[#26374A] hover:!shadow-none dark:text-neutral-200 "
+            data-te-ripple-color="dark">
+            Complex
+           </div>
+           <div
+             data-te-chip-init
+             data-te-ripple-init
+             class="[word-wrap: break-word] my-1 mr-4 px-5 py-5 flex h-[32px] cursor-pointer items-center justify-between rounded-[20px] border border-[#26374A] bg-[#ffffff] text-[16px] font-normal normal-case leading-loose text-black shadow-none transition-[opacity] duration-300 ease-linear hover:bg-[#748094] hover:text-[#ffffff] hover:border-[#26374A] hover:!shadow-none dark:text-neutral-200 "
+             data-te-ripple-color="dark">
+             Page element
+            </div>
+            <div
+              data-te-chip-init
+              data-te-ripple-init
+              class="[word-wrap: break-word] my-1 mr-4 px-5 py-5 flex h-[32px] cursor-pointer items-center justify-between rounded-[20px] border border-[#26374A] bg-[#ffffff] text-[16px] font-normal normal-case leading-loose text-black shadow-none transition-[opacity] duration-300 ease-linear hover:bg-[#748094] hover:text-[#ffffff] hover:border-[#26374A] hover:!shadow-none dark:text-neutral-200 "
+              data-te-ripple-color="dark">
+              Section
+             </div>
+      </div>
+    </div>
+
+        <!--Modal body-->
+        <div class="relative flex overflow-y-auto grow">
+            <div class="relative flex items-stretch flex-col basis-1/4 overflow-auto">
+                <fieldset class="flex-row mt-4">
+                    <legend><h3 class="uppercase text-slate-500 font-black px-3 py-2 border-l-8 border-white">Text entries</h3></legend>
+                    <input class="hidden" type="radio" id="short" name="fav_language" value="short">
+                    <label class="px-3 py-2 block border-l-8 bg-white border-white hover:border-slate-200 hover:bg-slate-200 cursor-pointer"  for="short">Short answer</label>
+                    <input class="hidden" type="radio" id="long" name="fav_language" value="long">
+                    <label class="px-3 py-2 block border-l-8 bg-white border-white hover:border-slate-200 hover:bg-slate-200 cursor-pointer"  for="long">Long answer</label>
+                </fieldset>
+                <fieldset class=" flex-row">
+                    <legend><h3 class="uppercase text-slate-500 font-black px-3 py-2 border-l-8 border-white">Selections</h3></legend>
+                    <input class="hidden" type="radio" id="single" name="fav_language" value="single">
+                    <label class="px-3 py-2 block border-l-8 bg-white border-white hover:border-slate-200 hover:bg-slate-200 cursor-pointer" for="single">Single choice</label>
+                    <input class="hidden" type="radio" id="multiple" name="fav_language" value="multiple">
+                    <label class="px-3 py-2 block bg-slate-300 border-l-8 border-indigo-700"  for="multiple">Choose multiple
+                        <span
+                        class="float-right w-4">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.89844 18.6348L15.8984 12.6348L9.89844 6.63477" stroke="#26374A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </label>
+                    <input class="hidden" type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label class="px-3 py-2 block border-l-8 bg-white border-white hover:border-slate-200 hover:bg-slate-200 cursor-pointer"  for="javascript">Dropdown list</label>
+                </fieldset>
+            </div>
+            <aside class="basis-3/4 flex-auto px-8 py-4 bg-slate-200 overflow-auto">
+                <h2 class="text-2xl mb-2 font-medium leading-normal text-neutral-800 dark:text-neutral-200">Choose multiple</h2>
+                <p class="pb-4 text-lg">Let your form filler select more than one option from a list of checkboxes</p>
+
+                <div class="bg-white p-8 mt-6 rounded-lg  border-2 border-slate-300 relative overflow-visible">
+                    <h3 class="bg-blue-800 text-white text-sm py-1 px-3 rounded-sm inline-block absolute right-5 -top-3 ">Try it out</h3>
+                    
+                    <iframe id="myIframe" class="w-full h-72 overflow-visible" src="components/checkbox.html" title="A clickable example of checkboxes"></iframe>
+                </div>
+            </aside>
+        </div>
+    
+        <!--Modal footer-->
+        <div
+          class="flex flex-shrink-0 flex-wrap items-center justify-start rounded-b-md border-t-2 border-[#CDCDCD] border-opacity-100 p-4 dark:border-opacity-50">
+          <button
+            type="button"
+            class="inline-block bg-[#26374A] text-white border-[#26374A] hover:text-white hover:bg-[#748094] active:text-white-default active:bg-gray-500 py-2 px-5 rounded-lg border-2 border-solid inline-flex items-center active:top-0.5 focus:border-[#3243BC] focus:outline-[3px] focus:outline-[#3243BC] focus:outline focus:outline-offset-2 focus:bg-[#3243BC] focus:text-white disabled:cursor-not-allowed disabled:text-gray-500 disabled:!border-grey-default"
+            data-te-ripple-init
+            data-te-ripple-color="light">
+            Save changes
+          </button>
+          <button
+            type="button"
+            class="ml-4 inline-block bg-white text-[#26374A] border-[#26374A] hover:text-white hover:bg-[#748094] active:text-white-default active:bg-gray-500 py-2 px-5 rounded-lg border-2 border-solid inline-flex items-center active:top-0.5 focus:border-[#3243BC] focus:outline-[3px] focus:outline-[#3243BC] focus:outline focus:outline-offset-2 focus:bg-[#3243BC] focus:text-white disabled:cursor-not-allowed disabled:text-gray-500 disabled:!border-grey-default"
+            data-te-modal-dismiss
+            data-te-ripple-init
+            data-te-ripple-color="light">
+            Close
+          </button>
+        </div>
+        
+  </div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+</body>
+</html>
